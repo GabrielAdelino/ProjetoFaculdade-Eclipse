@@ -74,11 +74,11 @@
             <br><br>
             <input type="password" placeholder="Senha">
             <br><br>
-            <a href="redefinicao-senha.html">Esqueceu sua senha, redefina ela aqui</a>
+            <a href="redefinicao-senha.jsp">Esqueceu sua senha, redefina ela aqui</a>
             <br><br>
             <button>Enviar</button>
             <br><br>
-            <a class="link-cadastro" href='paginaCadastro.html'">Não possui Login,<br>faça seu Cadastro aqui</a>
+            <a class="link-cadastro" href='CadastroUsuario.jsp'">Não possui Login,<br>faça seu Cadastro aqui</a>
         </div>
       </div>
 </body>

@@ -8,7 +8,6 @@
 
 <!-- Tela de Cadastro -->
 <title>Página de Cadastro</title>
-
     <style>
         body {
             font-family: Arial;
