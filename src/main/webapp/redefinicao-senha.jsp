@@ -57,7 +57,7 @@
         <h1>Recuperação Senha</h1>
         <h3>Se os dados informados forem iguais aos <br>cadastrados a redefinição de senha será realizada<h3>
         <br>
-        <input type="text" id="nome" placeholder="Informe o Nome castrado">
+        <input type="text" id="nome" placeholder="Informe o Nome cadastrado">
         <br><br>
         <input type="number" id="CPF" placeholder="Informe o CPF cadastrado">
         <br><br>
