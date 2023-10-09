@@ -1,83 +1,100 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-<meta charset="ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Tela de Cadastro -->
-<title>Página de Cadastro</title>
-    <style>
-        body {
-            font-family: Arial;
-            background-image: linear-gradient(45deg, #407454, #3c7454);
-            opacity: 0.9;
-        }
-
-        .TelaCadastro {
-            background-color: #fff;
-            position: absolute;
-            top: 50px;
-            left: 50px;
-            padding: 40px;
-            border-radius: 15px;
-        }
-
-        input {
-            padding: 15px;
-            border-radius: 5px;
-            outline: none;
-            font-size: 15px;
-        }
-        
-        button {
-            background-color: #007aff;
-            border: none;
-            padding: 15px;
-            width: 225px;
-            border-radius: 10px;
-            color: #fff
-        }
-
-        button:hover{
-            background-color: #085dc5;
-            cursor: pointer;
-        }
-
-        div h3 {
-            font-size: 15px;
-            font-family: Arial;
-            color: #545454;
-        }
-
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pg-cadastro2.css">
+    <title>Formulário de cadastro </title>
 </head>
 <body>
-<div class="TelaCadastro">
-        <h1>Cadastro de usuário</h1>
-        <br>
-        <input type="text" id="nome" placeholder="Seu Nome">
-        <br><br>
-        <input type="number" id="CPF" placeholder="Seu CPF">
-        <br><br>
-        <input type="number" id="Num" placeholder="Seu número">
-        <br>
-        <p>Sexo:</p>
-        <input type="radio" id="feminino" name="genero" value="feminino" required>
-        <label for="feminino">Feminino</label>
-        <br><br>
-        <input type="radio" id="masculino" name="genero" value="masculino" required>
-        <label for="masculino">Masculino</label>
-        <br><br>
-        <input type="radio" id="nao-declarar" name="genero" value="nao-declarar" required>
-        <label for="outro">Prefiro não declarar</label>
-        <br><br>
-        <h3>Crie uma senha com até 6 caracteres com: <br> números, letras e caracteres especiais como: @ # * &.</h3>
-        <input type="password" id="Senha" placeholder="Crie sua Senha">
-        <br><br>
-        <button>Realizar Cadastro</button>
+    <div class="container">
+        <div class="form-image">
+            <img src="img.png/undraw_typewriter_re_u9i2.svg">
+        </div>
+        <div class="form">
+            <form action="#" id="form">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome">Nome completo</label>
+                        <input id="nome" type="text" name="nome" placeholder="Nome completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="CPF">CPF</label>
+                        <input id="CPF" type="text" name="CPF" placeholder="Seu CPF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="dtnasc">Data nascimento</label>
+                        <input id="dtnasc" type="date" name="dtnasc" placeholder="Sua data de nascimento" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="seu endereço" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="celular">Celular</label>
+                        <input id="celular" type="number" name="celular" placeholder="(XX) XXXX-XXXX" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                        
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirm-senha">Confirme sua Senha</label>
+                        <input id="confirm-senha" type="password" name="confirm-senha" placeholder="Confirme sua senha" required>
+                        <small class="error"></small> 
+                        <small class="success"></small> 
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female"> Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male"> Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others"> Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit"><a href="#">continuar</a></button>
+
+                </div>
+            </form>
+        </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
