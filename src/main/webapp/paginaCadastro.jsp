@@ -1,12 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pg-cadastro2.css">
-    <title>Formulário de cadastro </title>
+    <title>FormulÃ¡rio de cadastro </title>
 </head>
 <body>
     <div class="container">
@@ -38,8 +38,8 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="endereco">Endereço</label>
-                        <input id="endereco" type="text" name="endereco" placeholder="seu endereço" required>
+                        <label for="endereco">EndereÃ§o</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="seu endereÃ§o" required>
                     </div>
 
                     <div class="input-box">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="gender-inputs">
                     <div class="gender-title">
-                        <h6>Gênero</h6>
+                        <h6>GÃªnero</h6>
                     </div>
 
                     <div class="gender-group">
@@ -83,7 +83,7 @@
 
                         <div class="gender-input">
                             <input id="none" type="radio" name="gender">
-                            <label for="none">Prefiro não dizer</label>
+                            <label for="none">Prefiro nÃ£o dizer</label>
                         </div>
                     </div>
                 </div>

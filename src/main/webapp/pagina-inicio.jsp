@@ -1,9 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P·gina Inicial</title>
+    <title>P√°gina Inicial</title>
     <!--Links Bostrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
@@ -92,13 +94,13 @@
 <!--Fim Carousel-->
 
   <div class="conteudo">
-    <h1>ConheÁa o projeto</h1><br>
-    <p>Lorem Ipsum È simplesmente uma simulaÁ„o de texto da ind˙stria tipogr·fica e de impressos, 
-      e vem sendo utilizado desde o sÈculo XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os 
-      embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu n„o sÛ a cinco sÈculos, como tambÈm ao 
-      salto para a editoraÁ„o eletrÙnica, permanecendo essencialmente inalterado. Se popularizou na dÈcada de 60, quando a 
-      Letraset lanÁou decalques contendo passagens de Lorem Ipsum, e mais recentemente 
-      quando passou a ser integrado a softwares de editoraÁ„o eletrÙnica como Aldus PageMaker.</p>
+    <h1>Conhe√ßa o projeto</h1><br>
+    <p>Lorem Ipsum √© simplesmente uma simula√ß√£o de texto da ind√∫stria tipogr√°fica e de impressos, 
+      e vem sendo utilizado desde o s√©culo XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os 
+      embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu n√£o s√≥ a cinco s√©culos, como tamb√©m ao 
+      salto para a editora√ß√£o eletr√¥nica, permanecendo essencialmente inalterado. Se popularizou na d√©cada de 60, quando a 
+      Letraset lan√ßou decalques contendo passagens de Lorem Ipsum, e mais recentemente 
+      quando passou a ser integrado a softwares de editora√ß√£o eletr√¥nica como Aldus PageMaker.</p>
   </div>
 
   <footer style="height: 100px;"></footer>

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -22,7 +24,7 @@
       </div>
       </header>
 
-    <!--Sidebar, se encontra presente em todas as páginas de navegação-->
+    <!--Sidebar, se encontra presente em todas as pÃ¡ginas de navegaÃ§Ã£o-->
       <aside class="sidebar">
         <nav class="menu-lateral">
             <ul>
