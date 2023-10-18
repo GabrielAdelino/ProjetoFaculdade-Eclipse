@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -90,7 +89,7 @@
                 </div>
 
                 <div class="continue-button">
-                    <button type="submit"><a href="#">continuar</a></button>
+                    <button type="submit"><a href="master">continuar</a></button>
 
                 </div>
             </form>
