@@ -12,6 +12,7 @@ public class JavaBeans {
 	private String numero;
 	private String senha;
 	
+	
 // Método construtor	
 	public JavaBeans() {
 		super();
