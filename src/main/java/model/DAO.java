@@ -24,7 +24,6 @@ public class DAO {
 			return null;
 		}
 	}
-	
 	/*Teste de conexão
 	public void testeConexão() {
 		try {
