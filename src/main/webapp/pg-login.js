@@ -1,7 +1,7 @@
 
 /*Redirecionamento para tela cadastro*/  /*NÃO MEXER*/
 document.getElementById("signUp").addEventListener("click", function() {
-    window.location.href = "paginaCadastro2.html";
+    window.location.href = "paginaCadastro.jsp";
 });
 
 /*Olho img login*/

@@ -18,7 +18,7 @@
                 <input type="text" placeholder="CPF" />
                 <input type="password" name="password" placeholder="Sua senha" />
                 <img class="password-toggle" src="img.png/olho-aberto.png" alt="Ocultar Senha">
-                <a href="redefinicao-senha.html">Esqueceu sua senha? redefina aqui</a>
+                <a href="redefinicaoSenha2.jsp">Esqueceu sua senha? redefina aqui</a>
                 <button>Enviar</button>
             </form>
         </div>
