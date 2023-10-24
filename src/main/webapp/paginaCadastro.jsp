@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<<<<<<< HEAD
+=======
 
+>>>>>>> branch 'master' of https://github.com/GabrielAdelino/ProjetoFaculdade-Eclipse.git
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
