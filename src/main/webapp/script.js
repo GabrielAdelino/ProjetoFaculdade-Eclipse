@@ -1,7 +1,55 @@
 
-/*Realizar os ajustes finais */
+function validar(){
+	let nome = frmcadastro.nome.value
+	let CPF = frmcadastro.CPF.value
+	let dtnasc = frmcadastro.dtnasc.value
+	let endereco = frmcadastro.endereco.value
+	let celular = frmcadastro.celular.value
+	let senha = frmcadastro.senha.value
+	if (nome === ""){
+		alert('Prencha o campo nome')
+		frmcadastro.nome.focus()
+		return false
+	} else if (CPF === ""){
+		alert('Preencha o campo CPF')
+		frmcadastro.cpf.focus()
+		return false
+	} else if (dtnasc === ""){
+		alert('Preencha o campo Data nascimento')
+		frmcadastro.dtnasc.focus()
+		return false
+	} else if (endereco === ""){
+		alert('Preencha o campo endereço')
+		frmcadastro.endereco.focus()
+		return false
+	} else if (celular === ""){
+		alert('Preencha o campo celular')
+		frmcadastro.celular.focus()
+		return false
+	} else if (senha === ""){
+		alert('Preencha o campo senha')
+		frmcadastro.senha.focus()
+		return false
+	} else {
+		document.forms["frmCadastro"].submit()
+	}
+}
 
-/*Java Script para confirmação de senha */
+
+
+
+
+
+
+
+
+
+
+
+/*
+/*Realizar os ajustes finais 
+
+/*Java Script para confirmação de senha 
 
 const form = document.getElementById("form");
 const senha = document.getElementById("senha");
@@ -33,7 +81,7 @@ function SetSuccessFor(input){
     const successSmall = formControl.querySelector('.success');
     successSmall.innerText = message;
    /* const small = formControl.querySelector('small');
-    small.innerText = '';*/
+    small.innerText = '';
 }
 
 function checkPassword() {
@@ -48,4 +96,4 @@ function checkPassword() {
     } else {
         SetSuccessFor(confirmSenha, "Senhas iguais");
     }
-}
+}*/
