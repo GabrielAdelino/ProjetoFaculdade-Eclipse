@@ -1,6 +1,7 @@
 package model;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
@@ -43,10 +44,10 @@ public class DAO {
 			PreparedStatement pst = con.prepareStatement(create);
 			pst.setString(1, cadastro.getNome());
 			pst.setString(2, cadastro.getCPF());
-			pst.setString(3, cadastro.getDt_nasc());
-			pst.setString(1, cadastro.getEndereco());
-			pst.setString(1, cadastro.getNumero());
-			pst.setString(1, cadastro.getSenha ());
+			pst.setDate(3, new java.sql.Date(cadastro.getdt_nasc().getTime()));
+			pst.setString(4, cadastro.getEndereco());
+			pst.setString(5, cadastro.getNumero());
+			pst.setString(6, cadastro.getSenha ());
 			pst.executeUpdate();
 			
 			//contato.inserir(contato)

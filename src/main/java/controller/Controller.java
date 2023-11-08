@@ -2,6 +2,9 @@ package controller;
 
 import java.beans.JavaBean;
 import java.io.IOException;
+import java.sql.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -41,6 +44,13 @@ public class Controller extends HttpServlet {
 	// Novo Cadastro
 		protected void novoCadastro(HttpServletRequest request, HttpServletResponse response)
 				throws ServletException, IOException {
+			//teste 
+			System.out.println(request.getParameter("nome"));
+			System.out.println(request.getParameter("CPF"));
+			System.out.println(request.getParameter("dt_nasc"));
+			System.out.println(request.getParameter("endereco"));
+			System.out.println(request.getParameter("numero"));
+			System.out.println(request.getParameter("senha"));
 		}
 	
 	// Página Cadastro
@@ -51,10 +61,19 @@ public class Controller extends HttpServlet {
 	
 	protected void doGet1(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		JavaBeans cadastro;
+		JavaBeans cadastro = new JavaBeans();
 		cadastro.setNome(request.getParameter("nome"));
 		cadastro.setCPF(request.getParameter("CPF"));
-		cadastro.setDt_nasc(request.getParameter("dt_nasc"));
+		
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+	    try {
+	        java.util.Date dataNasc = dateFormat.parse(request.getParameter("dtnasc"));
+	        cadastro.setDt_nasc(dataNasc);
+	    } catch (ParseException e) {
+	        e.printStackTrace();
+	        // Lidar com o erro de conversão de data, se necessário
+	    }
+		//cadastro.setDt_nasc(request.getParameter("dt_nasc"));
 		cadastro.setEndereco(request.getParameter("endereco"));
 		cadastro.setNumero(request.getParameter("numero"));
 		cadastro.setSenha(request.getParameter("senha"));

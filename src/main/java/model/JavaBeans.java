@@ -22,9 +22,9 @@ public class JavaBeans {
 	super();
 	this.iduser = iduser;
 	this.nome = nome;
-	CPF = CPF;
+	this.CPF = CPF;
 	this.dt_nasc = dt_nasc;
-	Endereco = endereco;
+	this.Endereco = endereco;
 	this.numero = numero;
 	this.senha = senha;
 }
@@ -48,7 +48,7 @@ public class JavaBeans {
 	public void setCPF(String CPF) {
 		CPF = CPF;
 	}
-	public Date getDt_nasc() {
+	public Date getdt_nasc() {
 		return dt_nasc;
 	}
 	public void setDt_nasc(Date dt_nasc) {
