@@ -22,9 +22,9 @@ public class JavaBeans {
 	super();
 	this.iduser = iduser;
 	this.nome = nome;
-	CPF = cPF;
+	this.CPF = CPF;
 	this.dt_nasc = dt_nasc;
-	Endereco = endereco;
+	this.Endereco = endereco;
 	this.numero = numero;
 	this.senha = senha;
 }
@@ -45,10 +45,10 @@ public class JavaBeans {
 	public String getCPF() {
 		return CPF;
 	}
-	public void setCPF(String cPF) {
-		CPF = cPF;
+	public void setCPF(String CPF) {
+		CPF = CPF;
 	}
-	public Date getDt_nasc() {
+	public Date getdt_nasc() {
 		return dt_nasc;
 	}
 	public void setDt_nasc(Date dt_nasc) {
@@ -71,6 +71,16 @@ public class JavaBeans {
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+
+	public void setFone(String parameter) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setEmail(String parameter) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }
