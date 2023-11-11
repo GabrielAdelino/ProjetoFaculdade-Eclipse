@@ -34,7 +34,7 @@
 
                     <div class="input-box">
                         <label for="dtnasc">Data nascimento</label>
-                        <input id="dtnasc" type="date" name="dtnasc" placeholder="Sua data de nascimento" >
+                        <input id="dtnasc" type="date" name="dt_nasc" placeholder="Sua data de nascimento" >
                     </div>
 
                     <div class="input-box">
@@ -44,7 +44,7 @@
 
                     <div class="input-box">
                         <label for="celular">Celular</label>
-                        <input id="celular" type="number" name="celular" placeholder="(XX) XXXX-XXXX" >
+                        <input id="celular" type="number" name="numero" placeholder="(XX) XXXX-XXXX" >
                     </div>
 
                     <div class="input-box">

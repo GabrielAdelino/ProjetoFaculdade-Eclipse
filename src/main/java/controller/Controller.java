@@ -65,10 +65,10 @@ public class Controller extends HttpServlet {
 		cadastro.setNome(request.getParameter("nome"));
 		cadastro.setCPF(request.getParameter("CPF"));
 		
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
 	    try {
 	        java.util.Date dataNasc = dateFormat.parse(request.getParameter("dtnasc"));
-	        cadastro.setDt_nasc(dataNasc);
+	        cadastro.setdt_nasc(dataNasc);
 	    } catch (ParseException e) {
 	        e.printStackTrace();
 	        // Lidar com o erro de conversão de data, se necessário
@@ -76,6 +76,7 @@ public class Controller extends HttpServlet {
 		//cadastro.setDt_nasc(request.getParameter("dt_nasc"));
 		cadastro.setEndereco(request.getParameter("endereco"));
 		cadastro.setNumero(request.getParameter("numero"));
+		//cadastro.setNumero(Double.valueOf(request.getParameter("numero")));
 		cadastro.setSenha(request.getParameter("senha"));
 		Object contato;
 		/*dao.inserirContato(contato);*/

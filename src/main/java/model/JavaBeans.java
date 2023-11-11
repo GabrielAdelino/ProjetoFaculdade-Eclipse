@@ -51,7 +51,7 @@ public class JavaBeans {
 	public Date getdt_nasc() {
 		return dt_nasc;
 	}
-	public void setDt_nasc(Date dt_nasc) {
+	public void setdt_nasc(Date dt_nasc) {
 		this.dt_nasc = dt_nasc;
 	}
 	public String getEndereco() {
