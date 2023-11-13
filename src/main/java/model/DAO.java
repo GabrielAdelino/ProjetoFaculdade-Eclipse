@@ -71,7 +71,7 @@ public class DAO {
 			PreparedStatement pst = con.prepareStatement(create);
 			pst.setString(1, cadastro.getNome());
 			pst.setString(2, cadastro.getCPF());
-			pst.setDate(3, new java.sql.Date(cadastro.getDt_nasc().getTime()));
+			pst.setDate(3, new java.sql.Date(cadastro.getdt_nasc().getTime()));
 			pst.setString(4, cadastro.getEndereco());
 			pst.setString(5, cadastro.getNumero());
 			pst.setString(6, cadastro.getSenha ());
