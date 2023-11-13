@@ -18,12 +18,12 @@ public class JavaBeans {
 		super();
 	}
 	
-	public JavaBeans(String iduser, String nome, String cPF, Date dt_nasc, String endereco, String numero, String senha) {
+	public JavaBeans(String iduser, String nome, String cPF, Date Dt_nasc, String endereco, String numero, String senha) {
 	super();
 	this.iduser = iduser;
 	this.nome = nome;
 	this.CPF = CPF;
-	this.dt_nasc = dt_nasc;
+	this.dt_nasc = Dt_nasc;
 	this.Endereco = endereco;
 	this.numero = numero;
 	this.senha = senha;
@@ -48,10 +48,10 @@ public class JavaBeans {
 	public void setCPF(String CPF) {
 		CPF = CPF;
 	}
-	public Date getdt_nasc() {
+	public Date getDt_nasc() {
 		return dt_nasc;
 	}
-	public void setDt_nasc(Date dt_nasc) {
+	public void setdt_nasc(Date dt_nasc) {
 		this.dt_nasc = dt_nasc;
 	}
 	public String getEndereco() {
