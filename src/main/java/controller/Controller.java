@@ -31,54 +31,59 @@ public class Controller extends HttpServlet {
 		if (action.equals("/master")) {
 			cadastro(request, response);
 		} else if (action.equals("/insert")) {
-			novoCadastro(request,response);
+			novoCadastro(request, response);
 		}
 
 		/*
-		 * TESTE DE CONEXÃO 
-		 * dao.testeConexão();
+		 * TESTE DE CONEXÃO dao.testeConexão();
 		 */
 
 	}
 
 	// Novo Cadastro
-		protected void novoCadastro(HttpServletRequest request, HttpServletResponse response)
-				throws ServletException, IOException {
-			//teste 
-			System.out.println(request.getParameter("nome"));
-			System.out.println(request.getParameter("CPF"));
-			System.out.println(request.getParameter("dt_nasc"));
-			System.out.println(request.getParameter("endereco"));
-			System.out.println(request.getParameter("numero"));
-			System.out.println(request.getParameter("senha"));
-		}
-	
+	protected void novoCadastro(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		JavaBeans cadastro = new JavaBeans();
+		// teste
+		System.out.println(request.getParameter("nome"));
+		System.out.println(request.getParameter("CPF"));
+		System.out.println(request.getParameter("dt_nasc"));
+		System.out.println(request.getParameter("endereco"));
+		System.out.println(request.getParameter("numero"));
+		System.out.println(request.getParameter("senha"));
+		// invocar o método inserirCadastro passando o objeto Cadastro
+		dao.criarCadastro(cadastro);
+		//Redirecionar para a página login
+		response.sendRedirect("/master");
+	}
+
 	// Página Cadastro
 	protected void cadastro(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		response.sendRedirect("paginaCadastro.jsp");
 	}
-	
+
 	protected void doGet1(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		JavaBeans cadastro = new JavaBeans();
 		cadastro.setNome(request.getParameter("nome"));
 		cadastro.setCPF(request.getParameter("CPF"));
-		
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-	    try {
-	        java.util.Date dataNasc = dateFormat.parse(request.getParameter("dtnasc"));
-	        cadastro.setDt_nasc(dataNasc);
-	    } catch (ParseException e) {
-	        e.printStackTrace();
-	        // Lidar com o erro de conversão de data, se necessário
-	    }
-		//cadastro.setDt_nasc(request.getParameter("dt_nasc"));
+
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+		try {
+			java.util.Date dataNasc = dateFormat.parse(request.getParameter("dtnasc"));
+			cadastro.setdt_nasc(dataNasc);
+		} catch (ParseException e) {
+			e.printStackTrace();
+			// Lidar com o erro de conversão de data, se necessário
+		}
+		// cadastro.setDt_nasc(request.getParameter("dt_nasc"));
 		cadastro.setEndereco(request.getParameter("endereco"));
 		cadastro.setNumero(request.getParameter("numero"));
+		// cadastro.setNumero(Double.valueOf(request.getParameter("numero")));
 		cadastro.setSenha(request.getParameter("senha"));
-		Object contato;
-		/*dao.inserirContato(contato);*/
-		response.sendRedirect("main");
+		//Object contato;
+		/* dao.inserirContato(contato); */
+		/*response.sendRedirect("main");*/
 	}
 }
