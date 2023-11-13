@@ -67,22 +67,22 @@
 
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input id="female" type="radio" name="gender">
+                            <input id="female" type="radio" name="gender1">
                             <label for="female"> Feminino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="male" type="radio" name="gender">
+                            <input id="male" type="radio" name="gender2">
                             <label for="male"> Masculino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="others" type="radio" name="gender">
+                            <input id="others" type="radio" name="gender3">
                             <label for="others"> Outros</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="none" type="radio" name="gender">
+                            <input id="none" type="radio" name="gender4">
                             <label for="none">Prefiro não dizer</label>
                         </div>
                     </div>
