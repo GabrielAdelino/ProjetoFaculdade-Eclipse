@@ -65,11 +65,12 @@ public class DAO {
 	}*/
 	
 	public void criarCadastro(JavaBeans cadastro) {
-		String create = "insert into cadastro (nome,CPF,dt_nacs,endereco,numero,senha) values (?,?,?,?,?,?)";
+		String create = "insert into cadastro_usuario (nome,CPF,dt_nasc,Endereco,numero,senha) values (?,?,?,?,?,?)";
 		try {
 			Connection con = conectar();
 			PreparedStatement pst = con.prepareStatement(create);
 			pst.setString(1, cadastro.getNome());
+			System.out.println(cadastro.getCPF());
 			pst.setString(2, cadastro.getCPF());
 			pst.setDate(3, new java.sql.Date(cadastro.getdt_nasc().getTime()));
 			pst.setString(4, cadastro.getEndereco());
