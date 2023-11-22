@@ -11,7 +11,7 @@ public class DAO {
 	private String url = "jdbc:mysql://127.0.0.1:3306/db_projeto_integrado?useTimezone=true&serverTimezone=UTC";
 	
 	private String user = "root";
-	private String password = "173004";
+	private String password = "BielG20B04*";
 	
 	//Método de conexão
 	private Connection conectar() {

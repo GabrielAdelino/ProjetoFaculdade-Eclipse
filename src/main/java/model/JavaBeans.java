@@ -46,7 +46,7 @@ public class JavaBeans {
 		return CPF;
 	}
 	public void setCPF(String CPF) {
-		CPF = CPF;
+		this.CPF = CPF;
 	}
 	public Date getdt_nasc() {
 		return dt_nasc;
