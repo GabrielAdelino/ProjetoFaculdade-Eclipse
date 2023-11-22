@@ -18,7 +18,7 @@ public class JavaBeans {
 		super();
 	}
 	
-	public JavaBeans(String iduser, String nome, String cPF, Date dt_nasc, String endereco, String numero, String senha) {
+	public JavaBeans(String iduser, String nome, String CPF, Date dt_nasc, String endereco, String numero, String senha) {
 	super();
 	this.iduser = iduser;
 	this.nome = nome;

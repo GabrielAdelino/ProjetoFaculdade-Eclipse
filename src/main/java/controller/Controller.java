@@ -51,6 +51,25 @@ public class Controller extends HttpServlet {
 		System.out.println(request.getParameter("endereco"));
 		System.out.println(request.getParameter("numero"));
 		System.out.println(request.getParameter("senha"));
+		
+		cadastro.setNome(request.getParameter("nome"));
+		cadastro.setCPF(request.getParameter("CPF"));
+
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+		try {
+			java.util.Date dataNasc = dateFormat.parse(request.getParameter("dt_nasc"));
+			cadastro.setdt_nasc(dataNasc);
+		} catch (ParseException e) {
+			e.printStackTrace();
+			// Lidar com o erro de conversão de data, se necessário
+		}
+
+		cadastro.setEndereco(request.getParameter("endereco"));
+		cadastro.setNumero(request.getParameter("numero"));
+		cadastro.setSenha(request.getParameter("senha"));
+
+		
+		
 		// invocar o método inserirCadastro passando o objeto Cadastro
 		dao.criarCadastro(cadastro);
 		//Redirecionar para a página login
@@ -60,7 +79,7 @@ public class Controller extends HttpServlet {
 	// Página Cadastro
 	protected void cadastro(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		response.sendRedirect("paginaCadastro.jsp");
+		response.sendRedirect("pagina-login.jsp");
 	}
 
 	protected void doGet1(HttpServletRequest request, HttpServletResponse response)
