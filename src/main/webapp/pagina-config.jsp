@@ -21,31 +21,31 @@
         <nav class="menu-lateral">
             <ul>
               <li class="item-menu">
-                <a href="pagina-inicio.html">
+                <a href="pagina-inicio.jsp">
                   <span class="icon"><i class="bi bi-house"></i></span>
                   <span class="txt-link">Home</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-aulas.html">
+                <a href="pagina-aulas.jsp">
                   <span class="icon"><i class="bi bi-columns-gap"></i></span>
                   <span class="txt-link">Aulas</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-Planos-Ensino.html">
+                <a href="pagina-Planos-Ensino.jsp">
                   <span class="icon"><i class="bi bi-calendar3"></i></span>
                   <span class="txt-link">....</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-config.html">
+                <a href="pagina-config.jsp">
                   <span class="icon"><i class="bi bi-gear-fill"></i></span>
                   <span class="txt-link">....</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-monitores.html">
+                <a href="pagina-monitores.jsp">
                   <span class="icon"><i class="bi bi-whatsapp"></i></span>
                   <span class="txt-link">Monitores</span>
                 </a>

@@ -29,31 +29,31 @@
     <nav class="menu-lateral">
         <ul>
           <li class="item-menu">
-            <a href="pagina-inicio.html">
+            <a href="pagina-inicio.jsp">
               <span class="icon"><i class="bi bi-house"></i></span>
               <span class="txt-link">Home</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-aulas.html">
+            <a href="pagina-aulas.jsp">
               <span class="icon"><i class="bi bi-columns-gap"></i></span>
               <span class="txt-link">Aulas</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-Planos-Ensino.html">
+            <a href="pagina-Planos-Ensino.jsp">
               <span class="icon"><i class="bi bi-calendar3"></i></span>
               <span class="txt-link">.....</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-config.html">
+            <a href="pagina-config.jsp">
               <span class="icon"><i class="bi bi-gear-fill"></i></span>
               <span class="txt-link">....</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-monitores.html">
+            <a href="pagina-monitores.jsp">
               <span class="icon"><i class="bi bi-whatsapp"></i></span>
               <span class="txt-link">Monitores</span>
             </a>
@@ -95,13 +95,11 @@
 
   <div class="conteudo">
     <h1>Conheça o projeto</h1><br>
-    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
-      e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os 
-      embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao 
-      salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a 
-      Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente 
-      quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+    <p>O Projeto da Faculdade Uniceplac chamado "Avós Digitais" tem por objetivo proporcionar aos participantes da "terceira idade" uma orientção quanto ao uso do computador, criando textos formatados, planilhas com cálculos básicos e navegação segura na internet.
+      <br>Neste curso você será apresentado aos conceitos básicos da internet e como ela funciona, aos sistemas operacionais como o Windows e como utiliza-lo, a como acessar a internet e os navegadores, utilizar word para criar textos e documentos, utilizar Excel para fazer cálculos básicos e utilizar planilhas e por fim ser apresentado a um conteúdo extra.</p>
+      <img src="img.png/Cartaz Avós digitais.png"> 
   </div>
+
 
   <footer style="height: 100px;"></footer>
 </body>

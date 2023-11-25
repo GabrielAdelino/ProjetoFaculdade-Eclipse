@@ -11,7 +11,7 @@
 <body>
     <div class="container" id="container">
         <div class="form-container sign-in-container">
-            <form action="pagina-inicio.html">
+            <form action="pagina-inicio.jsp">
                 <h1>Login</h1><br>
                 <span>Use seus dados para acessar</span>
                 <input type="text" placeholder="CPF" />
@@ -25,7 +25,7 @@
         <div class="overlay-panel overlay-right">
             <h1>Olá, seja Bem vindo!</h1>
             <p>Não possui uma conta, crie uma com seus dados e aprenda com a gente</p>
-            <button class="ghost" id="signUp">>Cadastrar-se</button>
+            <button class="ghost" id="signUp">Cadastrar-se</button>
             
         </div>
         </div>

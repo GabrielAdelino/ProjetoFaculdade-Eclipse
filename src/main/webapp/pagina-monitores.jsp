@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-=======
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -18,7 +14,7 @@
 <body>
   <header class="header-site">
     <div class="Logo-Projeto">
-      <img style="left: 320px; width: 170px;" src="/img.png/Logo-Projeto.svg">
+      <img style="left: 320px; width: 170px;" src="img.png/Logo-Projeto.svg">
   </div>
   </header>
 
@@ -26,31 +22,31 @@
     <nav class="menu-lateral">
         <ul>
           <li class="item-menu">
-            <a href="pagina-inicio.html">
+            <a href="pagina-inicio.jsp">
               <span class="icon"><i class="bi bi-house"></i></span>
               <span class="txt-link">Home</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-aulas.html">
+            <a href="pagina-aulas.jsp">
               <span class="icon"><i class="bi bi-columns-gap"></i></span>
               <span class="txt-link">Aulas</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-Planos-Ensino.html">
+            <a href="pagina-Planos-Ensino.jsp">
               <span class="icon"><i class="bi bi-calendar3"></i></span>
               <span class="txt-link">....</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-config.html">
+            <a href="pagina-config.jsp">
               <span class="icon"><i class="bi bi-gear-fill"></i></span>
               <span class="txt-link">....</span>
             </a>
           </li>
           <li class="item-menu">
-            <a href="pagina-monitores.html">
+            <a href="pagina-monitores.jsp">
               <span class="icon"><i class="bi bi-whatsapp"></i></span> <!--Icone antigo <i class="bi bi-chat-dots"></i></span>-->
               <span class="txt-link">Monitores</span>
             </a>
@@ -66,19 +62,19 @@
   </div>
 
   <div class="card-monitor1">
-    <img class="img-perfil" src="/img.png/Icone_perfil.png" alt="foto perfil">
+    <img class="img-perfil" src="/Projeto-Integrado/img.png/Icone_perfil.png" alt="foto perfil">
     <h1>Nome:</h1>
     <h2>Número:</h2>
   </div>
 
   <div class="card-monitor2">
-    <img class="img-perfil" src="/img.png/Icone_perfil.png" alt="foto perfil">
+    <img class="img-perfil" src="/Projeto-Integrado/img.png/Icone_perfil.png" alt="foto perfil">
     <h1>Nome:</h1>
     <h2>Número:</h2>
   </div>
  
   <div class="card-monitor3">
-    <img class="img-perfil" src="/img.png/Icone_perfil.png" alt="foto perfil">
+    <img class="img-perfil" src="/Projeto-Integrado/img.png/Icone_perfil.png" alt="foto perfil">
     <h1>Nome:</h1>
     <h2>Número:</h2>
   </div>
@@ -86,4 +82,3 @@
   <footer style="height: 100px;"></footer>
 </body>
 </html>
->>>>>>> branch 'master' of https://github.com/GabrielAdelino/ProjetoFaculdade-Eclipse.git
