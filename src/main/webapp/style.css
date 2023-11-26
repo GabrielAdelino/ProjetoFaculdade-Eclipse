@@ -132,7 +132,6 @@ font-family: 'Work Sans', sans-serif; */
 
 /*CSS página aulas*/
  .div-1{
-    /*background-color: orangered;*/
     width: calc(100% - 355px);
     height: 140px;
     margin-left: 297px;
@@ -189,7 +188,7 @@ font-family: 'Work Sans', sans-serif; */
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
-    background-image: url(img.png/conceitos1.png) ;
+    background-image: url(img.png;conceitos1.png);
   }
 
   .aula2 button {
@@ -201,10 +200,10 @@ font-family: 'Work Sans', sans-serif; */
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
-    background-image: url(img.png/sistemas2.png) ;
+    background-image: url(img.png/sistemas2.png);
   }
 
-  .aula3 button {
+  .aula03 button {
    width: 200px;
    height: 165px;
     margin-top: 0px;
@@ -213,7 +212,7 @@ font-family: 'Work Sans', sans-serif; */
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
-    background-image: url(img.png/navegabilidade3.png) ;
+    background-image: url(img.png/navegabilidade3.png);
   }
 
   .aula4 button {
@@ -225,7 +224,7 @@ font-family: 'Work Sans', sans-serif; */
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
-    background-image: url(img.png/word4.png) ;
+    background-image: url(img.png/word4.png);
   }
   
   /*teste */
@@ -282,7 +281,7 @@ font-family: 'Work Sans', sans-serif; */
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
-    background-image: url(img.png/word4.png) ;
+    background-image: url(img.png/word4.png);
   }
 
   .aula5 button {
@@ -294,7 +293,7 @@ font-family: 'Work Sans', sans-serif; */
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
-    background-image: url(img.png/excel5.png) ;
+    background-image: url(img.png/excel5.png);
   }
   
   .aula6 button {
@@ -306,7 +305,7 @@ font-family: 'Work Sans', sans-serif; */
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
-    background-image: url(img.png/extras6.png) ;
+    background-image: url(img.png/extras6.png);
   }
 
 .aulas-group2 h1 {

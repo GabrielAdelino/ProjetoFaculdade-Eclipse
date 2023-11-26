@@ -21,7 +21,7 @@
 <body>
   <header class="header-site" style="height: 53px;">
     <div class="Logo-Projeto">
-      <img style="left: 320px; width: 170px;" src="/img.png/Logo-Projeto.svg">
+      <img style="left: 320px; width: 170px;" src="img.png/Logo-Projeto.svg">
   </div>
   </header>
 
@@ -46,7 +46,7 @@
               <span class="txt-link">.....</span>
             </a>
           </li>
-          <li class="item-menu">
+        <li class="item-menu">
             <a href="pagina-config.jsp">
               <span class="icon"><i class="bi bi-gear-fill"></i></span>
               <span class="txt-link">....</span>
