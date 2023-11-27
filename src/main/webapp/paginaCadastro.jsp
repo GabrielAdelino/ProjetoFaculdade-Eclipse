@@ -89,8 +89,8 @@
                 </div>
 
                 <div class="continue-button">
-                     <button type="submit" onclick=" validar()"><a href="master">continuar</a></button>
-                    <!-- <a class="btn1" type="submit" onclick=" validar()"  href="master"> continuar</a>-->
+                     <!-- <button type="submit" onclick=" validar()"><a href="master">continuar</a></button>-->
+                      <a class="btn1" type="submit" onclick=" validar()"  href="master"><h3>continuar</h3></a>
 
                 </div>
             </form>
