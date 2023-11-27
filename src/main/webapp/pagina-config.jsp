@@ -1,19 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"pageEncoding="UTF-8"%>
+<!--Está página no eclipse se chama pagina-aprovacaoAdm.jsp -->
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="imagex/png" href="img.png/Red_White_Simple_Volunteer_Community_Logo__4_-removebg-preview.png">
-    <title>Avós digitais</title>
+    <title>Avós Digitais</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="style.css"><script src="script.js"></script>
-    <!--<i class="bi bi-circle-half"></i>-->
     </head>
+ 
     <body>
       <header class="header-site">
         <div class="Logo-Projeto">
-          <img style="left: 320px; width: 170px;" src="/img.png/Logo-Projeto.svg">
+          <img style="left: 320px; width: 170px;" src="img.png/Logo-Projeto.svg">
       </div>
       </header>
     
@@ -21,31 +21,31 @@
         <nav class="menu-lateral">
             <ul>
               <li class="item-menu">
-                <a href="pagina-inicio.html">
+                <a href="pagina-inicio.jsp">
                   <span class="icon"><i class="bi bi-house"></i></span>
                   <span class="txt-link">Home</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-aulas.html">
+                <a href="pagina-aulas.jsp">
                   <span class="icon"><i class="bi bi-columns-gap"></i></span>
                   <span class="txt-link">Aulas</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-Planos-Ensino.html">
+                <a href="pagina-Planos-Ensino.jsp">
                   <span class="icon"><i class="bi bi-calendar3"></i></span>
                   <span class="txt-link">....</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-config.html">
+                <a href="pagina-config.jsp">
                   <span class="icon"><i class="bi bi-gear-fill"></i></span>
                   <span class="txt-link">....</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-monitores.html">
+                <a href="pagina-monitores.jsp">
                   <span class="icon"><i class="bi bi-whatsapp"></i></span>
                   <span class="txt-link">Monitores</span>
                 </a>

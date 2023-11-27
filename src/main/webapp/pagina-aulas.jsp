@@ -20,7 +20,7 @@
     <body>
       <header class="header-site">
         <div class="Logo-Projeto">
-          <img style="left: 320px; width: 170px;" src="/img.png/Logo-Projeto.svg">
+          <img style="left: 320px; width: 170px;" src="img.png/Logo-Projeto.svg">
       </div>
       </header>
 
@@ -29,32 +29,32 @@
         <nav class="menu-lateral">
             <ul>
               <li class="item-menu">
-                <a href="pagina-inicio.html">
+                <a href="pagina-inicio.jsp">
                   <span class="icon"><i class="bi bi-house"></i></span>
                   <span class="txt-link">Home</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-aulas.html">
+                <a href="pagina-aulas.jsp">
                   <span class="icon"><i class="bi bi-columns-gap"></i></span>
                   <span class="txt-link">Aulas</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-Planos-Ensino.html">
+                <a href="pagina-Planos-Ensino.jsp">
                   <span class="icon"><i class="bi bi-calendar3"></i></span>
                   <span class="txt-link">....</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-config.html">
+                <a href="pagina-config.jsp">
                   <span class="icon"><i class="bi bi-gear-fill"></i></span>
                   <span class="txt-link">....</span>
                 </a>
               </li>
               <li class="item-menu">
-                <a href="pagina-monitores.html">
-                  <span class="icon"><i class="bi bi-whatsapp"></i></i></span>
+                <a href="pagina-monitores.jsp">
+                  <span class="icon"><i class="bi bi-whatsapp"></i></span>
                   <span class="txt-link">Monitores</span>
                 </a>
               </li>
@@ -67,36 +67,43 @@
         <img src="img.png/Img_Aulas.png">  
       </div>
 
-      <!--Primeira Div campo aulas-->
-      <div class="aulas-group">
-        <div>
-            <h1 class="titulo-aula">Aula 01</h1>
-        </div>
-    
-        <div>
-            <h1 class="titulo-aula">Aula 02</h1>
-        </div>
-    
-        <div>
-            <h1 class="titulo-aula">Aula 03</h1>
-        </div>
-    </div>
-
-    <!--Segunda Div do campo aulas-->
-    <div class="aulas-group2">
-      <div>
-        <h1 class="titulo-aula">Aula 04</h1>
-    </div>
-
-    <div>
-        <h1 class="titulo-aula">Aula 05</h1>
-    </div>
-
-    <div>
-        <h1 class="titulo-aula">Aula 06</h1>
-    </div>
+  <!-- Primeira Div campo aulas -->
+<div class="aulas-group">
+  <div class="aula1" id="aula01">
+      <button class="titulo-aula" onclick="abrirPDF1()"></button>
+      <!--<img src="img.png/conceitos1.png" alt="Aula 1">-->
   </div>
-    
-    <footer style="height: 100px;"></footer>
-    </body>
+
+  <div class="aula2"  id="aula02">
+      <button class="titulo" onclick="abrirPDF2()"></button>
+      <!--<img src="img.png/sistemas2.png" alt="Aula 2">-->
+  </div>
+
+  <div class="aula3"  id="aula03">
+      <button class="titulo" onclick="abrirPDF3()"></button>
+      <!--<img src="img.png/navegabilidade3.png" alt="Aula 3">-->
+  </div>
+</div>
+
+<!-- Segunda Div do campo aulas -->
+<div class="aulas-group2">
+  <div class="aula4"  id="aula04">
+      <button class="titulo" onclick="abrirPDF4()"></button>
+      <!--<img src="img.png/word4.png" alt="Aula 4">-->
+  </div>
+
+  <div class="aula5"  id="aula05">
+      <button class="titulo" onclick="abrirPDF5()"></button>
+      <!--<img src="img.png/excel5.png" alt="Aula 5">-->
+  </div>
+
+  <div class="aula6"  id="aula06">
+      <button class="titulo" onclick="abrirPDF6()"></button>
+      <!--<img src="img.png/extras6.png" alt="Aula 6">-->
+  </div>
+</div>
+
+<footer style="height: 100px;"></footer>
+
+</body>
 </html>
